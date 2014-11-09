@@ -9,7 +9,7 @@ name: You Don't Need jQuery!
 description: Free yourself from the chains of jQuery by embracing and understanding the modern Web API and discovering various directed libraries to help you fill in the gaps.
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://raw.githubusercontent.com/rnicholus/you-dont-need-jquery/gh-pages/images/field.jpg
+avatar: images/logo.png
 
 #
 # Flags below are optional
@@ -52,7 +52,9 @@ baseurl: "/you-dont-need-jquery"
 # !! You don't need to change any of the configuration flags below !!
 #
 
-markdown: kramdown
+markdown: redcarpet
+redcarpet:
+    extensions: [with_toc_data]
 highlighter: pygments
 permalink: /:title/
 
