@@ -5,7 +5,7 @@ title: Selecting Elements
 
 How many times have you seen a web app or library that uses jQuery simply
 to perform trivial element selection?  How many times have _you_ written this:
-`$(#myElement')`?.  Or this: `$('.myElement')`?  Psst... you don't need jQuery
+`$(#myElement')`?  Or this: `$('.myElement')`?  Psst... you don't need jQuery
 to select elements!  It's pretty easy with the plain 'ole DOM API.
 
 1. [IDs](#by-id)
