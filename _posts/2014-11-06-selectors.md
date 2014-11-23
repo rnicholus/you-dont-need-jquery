@@ -8,6 +8,7 @@ to perform trivial element selection?  How many times have _you_ written this:
 `$(#myElement')`?  Or this: `$('.myElement')`?  Psst... you don't need jQuery
 to select elements!  It's pretty easy with the plain 'ole DOM API.
 
+
 1. [IDs](#by-id)
 2. [CSS Classes](#by-css-class)
 3. [Tag Names](#by-tag-name)
@@ -22,7 +23,7 @@ to select elements!  It's pretty easy with the plain 'ole DOM API.
 12. [Next in this Series](#next)
 
 
-### By ID
+## By ID
 
 #### jQuery
 
@@ -50,7 +51,7 @@ than using `querySelector`](http://jsperf.com/getelementbyid-vs-queryselector/11
 Does jQuery's syntax provide any advantage here?  I don't see one.  Do you?
 
 
-### By CSS Class
+## By CSS Class
 
 #### jQuery
 ```javascript
@@ -78,7 +79,7 @@ and [is the most efficient of the two choices](http://jsperf.com/getelementsbycl
 Again, really simple stuff here.  Why bother with jQuery?
 
 
-### By Tag Name
+## By Tag Name
 
 For example, to select all `<div>` elements on a page:
 
@@ -104,7 +105,7 @@ As expected, `querySelectorAll` (which returns a `NodeList`) is less efficient t
 `getElementsByTagName` (which returns an `HTMLCollection`).
 
 
-### By Attribute
+## By Attribute
 
 Select all elements with a "data-foo-bar" attribute that contains a value of
 "someval":
@@ -123,7 +124,7 @@ document.querySelectorAll('[data-foo-bar="someval"]');
 Again, the DOM API and jQuery syntax is very similar.
 
 
-### By Pseudo-class
+## By Pseudo-class
 
 Select all fields in a specific form that are currently invalid.  Let's assume
 our form has an ID of "myForm".
@@ -140,7 +141,7 @@ document.querySelectorAll('#myForm :invalid');
 ```
 
 
-### Children
+## Children
 
 Select all children of a specific element.  Let's assume our specific has an ID
 of "myParent".
@@ -188,7 +189,7 @@ document.querySelector('#myParent > [ng-click]');
 ```
 
 
-### Descendants
+## Descendants
 
 Find all anchor elements under #myParent.
 
@@ -204,7 +205,7 @@ document.querySelectorAll('#myParent A');
 ```
 
 
-### Excluding Elements
+## Excluding Elements
 
 Select all `<div>` elements, except those with a CSS class of "ignore".
 
@@ -226,7 +227,7 @@ document.querySelectorAll('DIV:not(.ignore)');
 ```
 
 
-### Multiple Selectors
+## Multiple Selectors
 
 Select all `<div>`, `<a>` and `<script>` elements.
 
@@ -275,4 +276,7 @@ is another very small selector library that brings CSS3 selector support to very
 
 ## Next
 
-I'll talk about manipulating DOM elements in the next post.
+For me: I'll talk about [manipulating DOM elements in the next post]({{ site.baseurl }}/dom-manipulation).  
+
+For you: if I've left out any important selectors, let me know in the comments 
+so I can update the post.
