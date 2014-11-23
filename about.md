@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I'm currently a Web Developer working for [Widen](http://widen.com in Madison, Wisconsin.
+I'm currently a Web Developer working for [Widen](http://widen.com) in Madison, Wisconsin.
 I'm also the lead developer and product manager of [Fine Uploder](http://fineuploader.com/).
 
 ### Find me
