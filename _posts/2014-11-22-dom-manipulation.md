@@ -14,7 +14,7 @@ any other library.  However, others may be a bit tricky.  This is the time to st
 (again) that I am not trying to bash jQuery, nor will I assert that jQuery is
 useless or completely unnecessary.  The intent of these posts is to inform you
 how to work with the brower without jQuery, if you so choose.  You may find that,
-in many cases, a large library like jQuery goes mostly unused, and can be ommitted.
+in many cases, a large library like jQuery goes mostly unused, and can be omitted.
 
 
 1. [Creating Elements](#creating-elements)
