@@ -409,7 +409,7 @@ isn't as difficult as you may think.
 
 
 ## Next
-For me: I'll talk about making ajax requests.  
+For me: I'll talk about [making ajax requests]({{ site.baseurl }}/ajax).  
 
 For you: if I've left out any important DOM manipulation examples, let me know 
 in the comments so I can update the post.
