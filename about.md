@@ -4,8 +4,11 @@ title: About
 permalink: /about/
 ---
 
-I'm currently a Web Developer working for [Widen](http://widen.com) in Madison, Wisconsin.
-I'm also the lead developer and product manager of [Fine Uploder](http://fineuploader.com/).
+My name is Ray Nicholus, and I'm currently a Web Developer working for 
+[Widen](http://www.widen.com), an awesome marketing technology software company in 
+Madison, Wisconsin.  I'm also the lead developer and product manager of [Fine Uploader](http://fineuploader.com/).
+I like to write, blog, and [talk about software](http://slides.com/raynicholus) 
+in my free time.
 
 ### Find me
 Fine Uploader Blog: [author page](http://blog.fineuploader.com/author/rnicholus/)  
