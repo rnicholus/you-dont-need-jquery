@@ -222,7 +222,7 @@ $('DIV:not(.ignore)');
 
 #### DOM API
 ```javascript
-// IE 8+
+// IE 9+
 document.querySelectorAll('DIV:not(.ignore)');
 ```
 
