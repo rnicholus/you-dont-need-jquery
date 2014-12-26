@@ -13,7 +13,7 @@ You will see that some DOM manipulation is trivial without the aid of jQuery or
 any other library.  However, others may be a bit tricky.  This is the time to stress
 (again) that I am not trying to bash jQuery, nor will I assert that jQuery is
 useless or completely unnecessary.  The intent of these posts is to inform you
-how to work with the brower without jQuery, if you so choose.  You may find that,
+how to work with the browser without jQuery, if you so choose.  You may find that,
 in many cases, a large library like jQuery goes mostly unused, and can be omitted.
 
 
