@@ -25,7 +25,7 @@ footer-links:
   instagram:
   linkedin: raynicholus
   pinterest:
-  rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
+  rss: rss
   twitter: RayNicholus
   stackoverflow: users/486979/ray-nicholus
 
@@ -40,7 +40,7 @@ google_analytics: UA-56385927-1
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url:
+url: http://blog.garstasio.com
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
