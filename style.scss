@@ -278,13 +278,15 @@ footer {
   text-align: center;
 }
 
-// Settled on moving the import of syntax highlighting to the bottom of the CSS
-// ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
-@import "_highlights";
-
-#carbonads
-{
+#carbonads {
   max-width: 400px;
   margin: 0 auto;
 }
-.carbon-img: { float: left; }
+
+.carbon-img {
+  float: left;
+}
+
+// Settled on moving the import of syntax highlighting to the bottom of the CSS
+// ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
+@import "_highlights";
