@@ -280,11 +280,12 @@ footer {
 
 #carbonads {
   max-width: 400px;
-  margin: 0 auto;
+  margin: 15px auto;
 }
 
 .carbon-img {
   float: left;
+  margin-right: 10px;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
