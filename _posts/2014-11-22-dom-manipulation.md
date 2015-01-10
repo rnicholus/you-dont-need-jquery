@@ -272,6 +272,10 @@ $('#foo').addClass('bold');
 
 #### DOM API
 ```javascript
+// All modern browsers, with the exception of IE9
+document.getElementById('foo').classList.add('bold');
+
+// All browsers
 document.getElementById('foo').className += 'bold';
 ```
 
@@ -284,12 +288,16 @@ $('#foo').removeClass('bold');
 
 #### DOM API
 ```javascript
-// IE 5.5+
+// All modern browsers, with the exception of IE9
+document.getElementById('foo').classList.remove('bold');
+
+
+// All browsers
 document.getElementById('foo').className = 
     document.getElementById('foo').className.replace(/^bold$/, '');
 ```
 
-As usual, more characters, but still easy without jQuery.
+For IE 10 and up, the API is pretty much the same between jQuery and the Web API.  
 
 
 ## Adding/Removing/Changing Attributes
