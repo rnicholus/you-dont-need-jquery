@@ -30,10 +30,10 @@ footer-links:
   stackoverflow: users/486979/ray-nicholus
 
 # Your disqus shortname, entering this will enable commenting on posts
-disqus:
+disqus: youdontneedjquery
 
 # Your Intense Debate account ID, entering this will enable commenting on posts
-intensedebate: c728a1a1c8f3ab18aa04972f305edb09
+intensedebate:
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics: UA-56385927-1
