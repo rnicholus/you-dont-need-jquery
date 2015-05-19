@@ -136,7 +136,7 @@ $('#myForm :invalid');
 
 #### DOM API
 ```javascript
-// IE 8+
+// IE 10+
 document.querySelectorAll('#myForm :invalid');
 ```
 
