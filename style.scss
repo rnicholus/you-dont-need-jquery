@@ -278,6 +278,54 @@ footer {
   text-align: center;
 }
 
+#beyond-jquery-alert {
+  left: 50%;
+  position: fixed;
+  top: 0;
+
+  .alert-content {
+    &[aria-hidden="true"] {
+      opacity: 0;
+    }
+
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -ms-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+
+    .close {
+      cursor: pointer;
+
+      &:after {
+        content: '✖';
+        margin-top: -7px;
+        position: absolute;
+        right: 3px;
+      }
+    }
+
+    .message {
+      margin-top: 5px
+    }
+
+    background-color: rgb(237, 244, 214);
+    left: -50%;
+    opacity: 0.95;
+    padding: 5px;
+    position: relative;
+    text-align: center;
+
+    A.book-title {
+      color: black;
+      STRONG { font-size: 20px; }
+    }
+  }
+}
+.beyond-green {
+  color: rgb(143, 174, 29);
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "_highlights";

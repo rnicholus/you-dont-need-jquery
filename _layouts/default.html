@@ -18,6 +18,21 @@
     <div class="wrapper-masthead">
       <div class="container">
         <header class="masthead clearfix">
+          <div id="beyond-jquery-alert">
+            <div class="alert-content" aria-hidden="true">
+              <div class="close" role="button" tabindex="0"></div>
+              <div class="message">
+                Do you like this blog? Have you found it helpful but are looking for
+                <em>much more detail</em> and a <em>larger array of topics</em>?
+                Then take a look at my new book-in-progress:
+                <br>
+                <a href="https://leanpub.com/beyondjquery" target="_blank" class="book-title">
+                  <strong><span class="beyond-green">Beyond</span> jQuery</strong>!
+                </a>
+              </div>
+            </div>
+          </div>
+
           <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.baseurl}}/{{ site.avatar }}" /></a>
 
           <div class="site-info">
@@ -53,4 +68,23 @@
 
     {% include analytics.html %}
   </body>
+
+  <script>
+    (function() {
+      var showPromo = !localStorage.getItem('sawPromo');
+
+      if (showPromo) {
+        var messageEl = document.querySelector('#beyond-jquery-alert .alert-content');
+
+        setTimeout(function() {
+          messageEl.setAttribute('aria-hidden', 'false');
+          localStorage.setItem('sawPromo', true);
+        }, 5000);
+
+        document.querySelector('#beyond-jquery-alert .close').addEventListener('click', function() {
+          messageEl.setAttribute('aria-hidden', 'true');
+        });
+      }
+    }());
+  </script>
 </html>
