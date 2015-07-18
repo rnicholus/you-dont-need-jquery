@@ -11,7 +11,7 @@ I like to write, blog, and [talk about software](http://slides.com/raynicholus)
 in my free time. I'm also currently in the process of writing a book named [Beyond jQuery](https://leanpub.com/beyondjquery).
 
 ### Find me
-Beyond jQuery (a book in progress): [on Leanpub](https://leanpub.com/beyondjquery)
+Beyond jQuery (a book in progress): [on Leanpub](https://leanpub.com/beyondjquery)  
 Fine Uploader Blog: [author page](http://blog.fineuploader.com/author/rnicholus/)  
 GitHub: [rnicholus](https://github.com/rnicholus)  
 Linkedin: [Ray Nicholus](http://www.linkedin.com/pub/ray-nicholus/90/5b5/8b3/)  
