@@ -289,11 +289,11 @@ footer {
       opacity: 0;
     }
 
-    -webkit-transition: visibility 0s linear 1s, opacity 1s ease-in-out;
-    -moz-transition: visibility 0s linear 1s, opacity 1s ease-in-out;
-    -ms-transition: visibility 0s linear 1s, opacity 1s ease-in-out;
-    -o-transition: visibility 0s linear 1s, opacity 1s ease-in-out;
-    transition: visibility 0s linear 1s, opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -ms-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
 
     .close {
       cursor: pointer;
