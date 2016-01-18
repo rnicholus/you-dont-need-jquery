@@ -14,7 +14,6 @@ in my free time. I'm also currently in the process of writing a book named [Beyo
 Beyond jQuery (a book in progress): [on Leanpub](https://leanpub.com/beyondjquery)  
 Fine Uploader Blog: [author page](http://blog.fineuploader.com/author/rnicholus/)  
 GitHub: [rnicholus](https://github.com/rnicholus)  
-Linkedin: [Ray Nicholus](http://www.linkedin.com/pub/ray-nicholus/90/5b5/8b3/)  
 Stack Overflow: [ray-nicholus](http://stackoverflow.com/users/486979/ray-nicholus)  
 Twitter: [@RayNicholus](https://twitter.com/RayNicholus)  
 Widen Blog: [author page](http://www.widen.com/blog/ray-nicholus)  
