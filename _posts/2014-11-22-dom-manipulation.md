@@ -348,7 +348,7 @@ Now, we have the following markup:
 <div id="foo">Hi there!</div>
 ```
 
-...but we wan't to update the text to say "Goodbye!".
+...but we want to update the text to say "Goodbye!".
 
 #### jQuery
 ```javascript
