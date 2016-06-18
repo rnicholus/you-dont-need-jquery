@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ...and Much, Much More!
+title: Beyond jQuery
 ---
 
 You asked for more, and I was happy to oblige, because this blog only scratches the surface. On [Twitter][twitter], and in the discussion sections here, I mentioned that a longer-form version of my YDNjQ series was in progress. Back in early 2015, I began writing [a new book titled "Beyond jQuery"][beyond-jquery]. My book aims to greatly expand on the topics I have written about in this blog. There will be _much_ more detail, _much_ more code, and I will cover _many_ more topics. Expect the book to be about 15 chapters and _at least_ 300 pages. As of June 2016, the book is almost 80% complete with 11 finished chapters and 250 pages.
