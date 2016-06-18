@@ -25,9 +25,9 @@
               <div class="message">
                 Do you like this blog? Have you found it helpful but are looking for
                 <em>much more detail</em> and a <em>larger array of topics</em>?
-                Then take a look at my new book-in-progress:
+                Check out a <b>free preview of my new book</b>:
                 <br>
-                <a href="https://leanpub.com/beyondjquery" target="_blank" class="book-title">
+                <a href="https://github.com/rnicholus/beyond-jquery-book/releases/download/preview-1/Beyond_jQuery_preview.pdf" target="_blank" class="book-title">
                   <strong><span class="beyond-green">Beyond</span> jQuery</strong>!
                 </a>
               </div>
@@ -72,14 +72,15 @@
 
   <script>
     (function() {
-      var showPromo = !localStorage.getItem('sawPromo');
+      var promoKey = 'sawPromoJune2016'
+      var showPromo = !localStorage.getItem(promoKey);
 
       if (showPromo) {
         var messageEl = document.querySelector('#beyond-jquery-alert .alert-content');
 
         setTimeout(function() {
           messageEl.setAttribute('aria-hidden', 'false');
-          localStorage.setItem('sawPromo', true);
+          localStorage.setItem(promoKey, true);
         }, 30000);
 
         document.querySelector('#beyond-jquery-alert .close').addEventListener('click', function() {
