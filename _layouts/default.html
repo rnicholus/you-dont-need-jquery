@@ -71,22 +71,36 @@
 </body>
 
   <script>
+    // register preview link clicks
     (function() {
-      var promoKey = 'sawPromoJune2016'
-      var showPromo = !localStorage.getItem(promoKey);
-
-      if (showPromo) {
-        var messageEl = document.querySelector('#beyond-jquery-alert .alert-content');
-
-        setTimeout(function() {
-          messageEl.setAttribute('aria-hidden', 'false');
-          localStorage.setItem(promoKey, true);
-        }, 30000);
-
-        document.querySelector('#beyond-jquery-alert .close').addEventListener('click', function() {
-          messageEl.setAttribute('aria-hidden', 'true');
-        });
+      var registerPreviewLinkClick = function() {
+        ga('send', 'event', 'previewLink', 'download');
       }
+      var previewLinks = document.querySelectorAll('a[href="https://github.com/rnicholus/beyond-jquery-book/releases/download/preview-1/Beyond_jQuery_preview.pdf"]')
+      for (var i = 0; i < previewLinks.length; i++) {
+        previewLinks[i].addEventListener('click', registerPreviewLinkClick)
+      }
+      
+      // show promo
+      (function() {
+        var promoKey = 'sawPromoJune2016'
+        var showPromo = !localStorage.getItem(promoKey);
+  
+        if (showPromo) {
+          var messageEl = document.querySelector('#beyond-jquery-alert .alert-content');
+          
+          messageEl.querySelector('a').addEventListener('click', registerPreviewLinkClick)
+          
+          setTimeout(function() {
+            messageEl.setAttribute('aria-hidden', 'false');
+            localStorage.setItem(promoKey, true);
+          }, 30000);
+  
+          document.querySelector('#beyond-jquery-alert .close').addEventListener('click', function() {
+            messageEl.setAttribute('aria-hidden', 'true');
+          });
+        }
+      }());
     }());
   </script>
 </html>
