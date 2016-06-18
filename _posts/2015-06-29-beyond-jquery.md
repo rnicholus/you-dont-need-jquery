@@ -7,7 +7,7 @@ You asked for more, and I was happy to oblige, because this blog only scratches 
 
 Carrying on the tradition of this blog, Beyond jQuery will follow a [lean publishing process][lean-publishing]. In short, I will be publishing new chapters as I complete them and will take reader feedback into account when considering adjustments to existing chapters as well as planned chapters.
 
-You can [download a **free preview** of the book][beyond-jquery-preview] _before_ you purchase. If you  This extended preview is 36 pages long and will demonstrate the tone and format of the entire book. It includes the following chapters:
+**You may [download a free preview of the book][beyond-jquery-preview] _before_ you purchase**. If you  This extended preview is 36 pages long and will demonstrate the tone and format of the entire book. It includes the following chapters:
 
 - Preface
 - Introduction
