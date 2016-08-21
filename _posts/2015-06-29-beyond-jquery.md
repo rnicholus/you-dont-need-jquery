@@ -3,10 +3,13 @@ layout: post
 title: Beyond jQuery
 ---
 
-You asked for more, and I was happy to oblige, because this blog only scratches the surface. On [Twitter][twitter], and in the discussion sections here, I mentioned that a longer-form version of my YDNjQ series was in progress. Back in early 2015, I began writing [a new book titled "Beyond jQuery"][leanpub]. My book aims to greatly expand on the topics I have written about in this blog. There will be _much_ more detail, _much_ more code, and I will cover _many_ more topics. Expect the book to be 13 chapters, _at least_ 300 pages, and a full-stack code repository that touches on much of the material discussed in the book. As of June 2016, the book is almost complete, and is scheduled to be publised by Apress later this year. Please monitor the [book's retired Leanpub site][leanpub] for publishing-related updates. 
+<img src="{{ site.baseurl}}/images/ccby.png">
+
+You asked for more, and I was happy to oblige, because this blog only scratches the surface. On [Twitter][twitter], and in the discussion sections here, I mentioned that a longer-form version of my YDNjQ series was in progress. Back in early 2015, I began writing [a new book titled "Beyond jQuery"][leanpub]. My goal was to greatly expand on the topics I wrote about in this blog. Well, it is finally finished, and it contains _much_ more detail, _much_ more code, and I cover _many_ more topics! It's 13 chapters, about 300 pages, and contains an accompanying [full-stack code repository][exercise] that touches on much of the material discussed in the book. You can pre-order a [copy of the book on Amazon][amazon], with an expected publication date of 8 October, 2016. Please contact me on [Twitter][twitter] if you have any comments, questions, or requests.
 
 
 \- Ray Nicholus
 
-[leanpub]: https://leanpub.com/beyondjquery
+[amazon]: https://amzn.com/1484222342
+[exercise]: https://github.com/Beyond-jQuery/exercise
 [twitter]: https://twitter.com/RayNicholus
