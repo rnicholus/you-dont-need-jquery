@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-My name is Ray Nicholus, and I'm currently a software engineer working for [Action Verb](http://actionverb.com), a fully distributed and powerful and unique platforms an infrastructure software company. Two of our more notable products are [Brick FTP](https://brickftp.com/) and [Vae Platform](https://vaeplatform.com/). I'm also the lead developer and product manager of [Fine Uploader](http://fineuploader.com/).
+My name is Ray Nicholus, and I'm currently a software engineer working for [Action Verb](http://actionverb.com), a fully distributed, powerful, and unique platforms an infrastructure software company. Two of our more notable products are [Brick FTP](https://brickftp.com/) and [Vae Platform](https://vaeplatform.com/). I'm also the lead developer and product manager of [Fine Uploader](http://fineuploader.com/).
 I like to write, blog, and [talk about software](http://slides.com/raynicholus)
 in my free time. I've also recently written and published a web development book named [Beyond jQuery](https://amzn.com/1484222342).
 
