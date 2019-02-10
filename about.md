@@ -13,5 +13,4 @@ in my free time. I've also recently written and published a web development book
 - My Amazon author page: [https://www.amazon.com/author/raynicholus](https://www.amazon.com/author/raynicholus)
 - Fine Uploader Blog: [all articles](http://blog.fineuploader.com/author/)  
 - GitHub: [rnicholus](https://github.com/rnicholus)  
-- Stack Overflow: [ray-nicholus](http://stackoverflow.com/users/486979/ray-nicholus)  
-- Twitter: [@RayNicholus](https://twitter.com/RayNicholus)
+- Stack Overflow: [ray-nicholus](http://stackoverflow.com/users/486979/ray-nicholus)
